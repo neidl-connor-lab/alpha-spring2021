@@ -1,0 +1,2 @@
+"Segment","Position","NT.ID","NT.REF","NT.ALT","Quality.score","INDEL","Read.depth","Frequency","Strand.bias","Percent","INDEL.type","Type","Gene","INDEL.frameshift","AA.Position","AA.REF","AA.ALT","AA.ID"
+"MN908947.3",17315,"17315-TA-T","TA","T",35,TRUE,1801,0.002221,0,0.2221,"Deletion","Nonsynonymous","NSP13",TRUE,361,"N","M","NSP13 N361M"

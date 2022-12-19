@@ -1,5 +1,7 @@
 data/*.fq.gz
 data/*.bam
+data/*.fa.gz
 logs/
 analysis/*.tif
 tree/*.trees
+sra/

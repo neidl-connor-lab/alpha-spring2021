@@ -1,0 +1,26 @@
+##fileformat=VCFv4.0
+##fileDate=20220824
+##source=lofreq call --call-indels --min-cov 10 --ref pipeline/sars-cov2-MN908947.3.fa --no-default-filter -r MN908947.3:1-1868 -o /scratch/6938960.1.linga/lofreq2_call_parallelODtjgX/0.vcf.gz data/bu0941-indel.bam 
+##reference=pipeline/sars-cov2-MN908947.3.fa
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_snvqual_52,Description="Minimum SNV Quality (Phred) 52">
+##FILTER=<ID=min_indelqual_41,Description="Minimum Indel Quality (Phred) 41">
+##FILTER=<ID=min_dp_10,Description="Minimum Coverage 10">
+##FILTER=<ID=sb_fdr,Description="Strand-Bias Multiple Testing Correction: fdr corr. pvalue > 0.001000">
+##FILTER=<ID=min_snvqual_58,Description="Minimum SNV Quality (Phred) 58">
+##FILTER=<ID=min_indelqual_45,Description="Minimum Indel Quality (Phred) 45">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+MN908947.3	241	.	C	T	49314	PASS	DP=29470;AF=0.997150;SB=0;DP4=3,3,14430,14956
+MN908947.3	347	.	G	A	49314	PASS	DP=26107;AF=0.997625;SB=4;DP4=1,2,3616,22429
+MN908947.3	397	.	A	AC	563	PASS	DP=134;AF=0.649254;SB=179;DP4=72,19,13,74;INDEL;HRUN=1
+MN908947.3	404	.	A	T	1078	PASS	DP=114;AF=0.912281;SB=7;DP4=3,6,17,87
+MN908947.3	410	.	G	GT	172	PASS	DP=109;AF=0.614679;SB=17;DP4=9,27,5,62;INDEL;HRUN=2
+MN908947.3	13609	.	C	A	60	PASS	DP=4606;AF=0.010855;SB=12;DP4=1280,3269,8,42
+MN908947.3	24247	.	A	T	45744	PASS	DP=1439;AF=0.999305;SB=0;DP4=1,0,720,718
+MN908947.3	24372	.	C	T	43987	PASS	DP=1333;AF=1.000000;SB=0;DP4=0,0,465,868

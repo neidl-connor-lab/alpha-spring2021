@@ -228,6 +228,28 @@ checkcmd "LoFreq"
 rm "${VAR}-indel.bam" "${VAR}-indel.bam.bai"
 echo ""
 
+# check VCF; if no annotate SNVs, remove VCF and exit
+if [ "$(cat $VCF | grep "^[^#]" | wc -l)" -eq 0 ]
+then
+  mesg "No SNVs identified; terminating pipeline here."
+  rm "$VCF"
+  echo ""
+
+  # print package versions
+  mesg "Pipeline complete! Printing package versions..."
+  module list
+  bowtie2 --version
+  echo ""
+  samtools --version
+  echo ""
+  Rscript --version
+  echo ""
+  echo "LoFreq"
+  $LOFREQ version
+  echo ""
+  exit 0
+fi
+
 ## annotate SNVs -----------------------------------------------
 mesg "Step 5/6: Annotate SNVs"
 SNV="${VAR}.csv"

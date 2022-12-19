@@ -1,0 +1,30 @@
+##fileformat=VCFv4.0
+##fileDate=20220824
+##source=lofreq call --call-indels --min-cov 10 --ref pipeline/sars-cov2-MN908947.3.fa --no-default-filter -r MN908947.3:1-1868 -o /scratch/6939566.1.f/lofreq2_call_parallelFbUAPF/0.vcf.gz data/bu1107-indel.bam 
+##reference=pipeline/sars-cov2-MN908947.3.fa
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_snvqual_44,Description="Minimum SNV Quality (Phred) 44">
+##FILTER=<ID=min_indelqual_24,Description="Minimum Indel Quality (Phred) 24">
+##FILTER=<ID=min_dp_10,Description="Minimum Coverage 10">
+##FILTER=<ID=sb_fdr,Description="Strand-Bias Multiple Testing Correction: fdr corr. pvalue > 0.001000">
+##FILTER=<ID=min_snvqual_60,Description="Minimum SNV Quality (Phred) 60">
+##FILTER=<ID=min_indelqual_42,Description="Minimum Indel Quality (Phred) 42">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+MN908947.3	1229	.	A	G	133	PASS	DP=147;AF=0.068027;SB=0;DP4=19,118,1,9
+MN908947.3	3037	.	C	T	860	PASS	DP=28;AF=1.000000;SB=0;DP4=0,0,8,20
+MN908947.3	6634	.	T	C	6250	PASS	DP=185;AF=1.000000;SB=0;DP4=0,0,119,66
+MN908947.3	12028	.	G	A	49314	PASS	DP=1712;AF=0.997079;SB=8;DP4=4,0,920,787
+MN908947.3	12600	.	G	T	7305	PASS	DP=220;AF=1.000000;SB=0;DP4=0,0,121,99
+MN908947.3	17615	.	A	G	557	PASS	DP=17;AF=1.000000;SB=0;DP4=0,0,3,14
+MN908947.3	21764	.	ATACATG	A	2572	PASS	DP=149;AF=0.959732;SB=6;DP4=4,2,122,21;INDEL;HRUN=1
+MN908947.3	21990	.	TTTA	T	2121	PASS	DP=100;AF=0.940000;SB=0;DP4=0,6,1,93;INDEL;HRUN=3
+MN908947.3	23063	.	A	T	8523	PASS	DP=262;AF=1.000000;SB=0;DP4=0,0,66,196
+MN908947.3	24772	.	AC	A	2507	PASS	DP=2638;AF=0.992039;SB=42;DP4=16,5,2566,51;INDEL;HRUN=1
+MN908947.3	24914	.	G	C	49314	PASS	DP=2102;AF=0.999524;SB=0;DP4=0,1,272,1829
+MN908947.3	25437	.	G	T	7023	PASS	DP=209;AF=1.000000;SB=0;DP4=0,0,132,77

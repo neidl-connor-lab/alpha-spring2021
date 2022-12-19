@@ -1,0 +1,2 @@
+"Segment","Position","NT.ID","NT.REF","NT.ALT","Quality.score","INDEL","Read.depth","Frequency","Strand.bias","Percent","INDEL.type","INDEL.frameshift","Type","Gene","AA.Position","AA.REF","AA.ALT","AA.ID"
+"MN908947.3",28869,"28869-C-T","C","T",754,FALSE,22,1,0,100,"None",FALSE,"Nonsynonymous","N",199,"P","L","N P199L"

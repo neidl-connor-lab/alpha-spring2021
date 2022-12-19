@@ -1,0 +1,27 @@
+##fileformat=VCFv4.0
+##fileDate=20220824
+##source=lofreq call --call-indels --min-cov 10 --ref pipeline/sars-cov2-MN908947.3.fa --no-default-filter -r MN908947.3:1-1868 -o /scratch/6938929.1.linga/lofreq2_call_parallelP5pNeA/0.vcf.gz data/bu0904-indel.bam 
+##reference=pipeline/sars-cov2-MN908947.3.fa
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_snvqual_20,Description="Minimum SNV Quality (Phred) 20">
+##FILTER=<ID=min_indelqual_20,Description="Minimum Indel Quality (Phred) 20">
+##FILTER=<ID=min_dp_10,Description="Minimum Coverage 10">
+##FILTER=<ID=sb_fdr,Description="Strand-Bias Multiple Testing Correction: fdr corr. pvalue > 0.001000">
+##FILTER=<ID=min_snvqual_59,Description="Minimum SNV Quality (Phred) 59">
+##FILTER=<ID=min_indelqual_48,Description="Minimum Indel Quality (Phred) 48">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+MN908947.3	1927	.	T	C	2937	PASS	DP=91;AF=0.989011;SB=0;DP4=0,0,64,26
+MN908947.3	13068	.	CT	C	246	PASS	DP=23496;AF=0.001702;SB=2;DP4=17177,6279,28,12;INDEL;HRUN=3
+MN908947.3	13123	.	TG	T	153	PASS	DP=25982;AF=0.001655;SB=2;DP4=13240,12750,24,19;INDEL;HRUN=5
+MN908947.3	13162	.	T	TAC	60	PASS	DP=25220;AF=0.000872;SB=2;DP4=13493,11794,10,12;INDEL;HRUN=1
+MN908947.3	13694	.	C	T	49314	PASS	DP=3488;AF=0.998280;SB=0;DP4=1,0,2123,1359
+MN908947.3	14408	.	C	T	49314	PASS	DP=14870;AF=0.998857;SB=0;DP4=1,1,8895,5958
+MN908947.3	14601	.	A	AACG	156	PASS	DP=114;AF=0.307018;SB=84;DP4=45,43,0,35;INDEL;HRUN=2
+MN908947.3	14601	.	A	AACGTAACC	121	PASS	DP=114;AF=0.192982;SB=42;DP4=45,43,1,21;INDEL;HRUN=2
+MN908947.3	15766	.	G	T	49314	PASS	DP=21827;AF=0.998626;SB=17;DP4=5,0,9675,12122

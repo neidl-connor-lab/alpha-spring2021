@@ -2,7 +2,7 @@
 
 ## setup -----------------------------------------------------------------------
 rm(list=ls(all.names=TRUE))
-setwd("/rprojectnb/lasvchal/Jacquelyn/papers/athletic-cluster")
+setwd("/rprojectnb/lasvchal/Jacquelyn/papers/alpha-spring2021")
 suppressPackageStartupMessages(library(tidyverse))
 suppressPackageStartupMessages(library(argparse))
 theme_set(theme_classic())
@@ -18,14 +18,14 @@ err <- function(...) {
   system(x)
   q(status=1)
 }
-read.coverage <- function(id, dir=".", prefix="") {
-  paste0(dir, "/", prefix, id, ".tsv") %>%
+read.coverage <- function(id, dir=".") {
+  paste0(dir, "/", id, ".tsv") %>%
     read.delim(col.names=c("Segment", "Position", "Depth")) %>%
     mutate(Barcode=id) %>%
     select(Barcode, Position, Depth)
 }
-read.vcf <- function(id, dir=".", prefix="") {
-  paste0(dir, "/", prefix, id, ".vcf") %>%
+read.vcf <- function(id, dir=".") {
+  paste0(dir, "/", id, ".vcf") %>%
     read.delim(comment.char="#",
                col.names=c("Segment", "Position", "ID", "Ref", "Alt", 
                            "Qual", "Filter", "Info"),
@@ -95,7 +95,6 @@ args <- ArgumentParser()
 args$add_argument("-i", "--idir", default="data", help="input directory")
 args$add_argument("-o", "--odir", default="clustering", help="output directory")
 args$add_argument("-m", "--meta", default="sampleinfo.csv", help="sample data")
-args$add_argument("-p", "--pfix", default="bu", help="filename prefix")
 args$add_argument("-t", "--thld", default=7000, help="clustering threshold")
 args <- args$parse_args()
 
@@ -124,17 +123,15 @@ if(file.exists(args$meta)) {
           mutate(QC.sequencing=(!is.na(Lineage)))
   mesg("Metadata contains", dim(meta)[1], "samples, of which", 
        sum(meta$QC.sequencing), "pass sequencing QC")
+  meta <- filter(meta, QC.sequencing)
 } else {
   err("Invalid metadata file:", args$meta)
 }
 
-# print out file prefix
-mesg("Using file prefix:", args$pfix)
-
 ## sequencing QC ---------------------------------------------------------------
 # coverage: all TSV files in input directory
 covs <- meta$Barcode %>%
-        lapply(read.coverage, dir=args$idir, prefix=args$pfix) %>%
+        lapply(read.coverage, dir=args$idir) %>%
         do.call(rbind, .)
 
 # remove 3' and 5' UTRs
@@ -169,7 +166,7 @@ meta <- filter(meta, QC.clustering)
 
 # import VCF files
 snvs <- meta$Barcode %>%
-        lapply(read.vcf, dir=args$idir, prefix=args$pfix) %>%
+        lapply(read.vcf, dir=args$idir) %>%
         do.call(rbind, .) %>%
         # only considering ≥50% for cluster
         filter(Frequency >= 0.5) %>%
@@ -246,7 +243,7 @@ ggsave(paste0(args$odir, "/difs.png"),
        width=10, height=10, units="cm")
 rm(d)
 
-# clusters with n > 1 duration
+# clusters with n > 3 duration
 meta %>%
   group_by(Cluster.dif2) %>%
   summarise(Start=min(Collection.date),
@@ -254,7 +251,7 @@ meta %>%
             Cases=n(),
             .groups="drop") %>%
   # remove clusters with only one case
-  filter(Cases > 1) %>%
+  filter(Cases > 3) %>%
   mutate(Cluster=factor(Cluster.dif2, levels=unique(Cluster.dif2))) %>%
   ggplot() +
   geom_segment(aes(x=Start, xend=End, y=Cluster, yend=Cluster)) +
@@ -262,16 +259,18 @@ meta %>%
   geom_point(aes(x=End, y=Cluster)) +
   labs(x="Swab date",
        y="Cluster ID",
-       title="Cluster duration (n > 1)")
+       title="Cluster duration (n > 3, ≤ 2 difs)") +
+  theme(axis.ticks.y=element_blank(),
+        axis.text.y=element_blank())
 ggsave(paste0(args$odir, "/clusters-duration.png"), 
        units="cm", width=12, height=12)
 
-# clusters with n > 3 accumulation
+# clusters with n > 10 accumulation
 x <- meta %>%
      group_by(Cluster.dif2) %>%
      summarise(Cases=n(),
                .groups="drop") %>%
-     filter(Cases > 3) %>%
+     filter(Cases > 10) %>%
      select(Cluster.dif2) %>%
      unlist()
 seq(min(meta$Collection.date),
@@ -295,7 +294,7 @@ seq(min(meta$Collection.date),
   geom_line(size=2) +
   labs(x="Swab date",
        y="Total cases",
-       title="Cluster accumulation (n > 3)") +
+       title="Cluster accumulation (n > 10, ≤ 2 difs)") +
   scale_color_brewer(palette="Paired")
 ggsave(paste0(args$odir, "/clusters-accumulation.png"), 
        units="cm", width=12, height=12)

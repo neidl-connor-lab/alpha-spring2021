@@ -1,0 +1,2 @@
+"Segment","Position","NT.ID","NT.REF","NT.ALT","Quality.score","INDEL","Read.depth","Frequency","Strand.bias","Percent","INDEL.type","INDEL.frameshift","Type","Gene","AA.Position","AA.REF","AA.ALT","AA.ID"
+"MN908947.3",11983,"11983-A-T","A","T",132,FALSE,12,1,0,100,"None",FALSE,"Nonsynonymous","NSP7",47,"E","D","NSP7 E47D"

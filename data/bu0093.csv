@@ -1,0 +1,2 @@
+"Segment","Position","NT.ID","NT.REF","NT.ALT","Quality.score","INDEL","Read.depth","Frequency","Strand.bias","Percent","INDEL.type","INDEL.frameshift","Type","Gene","AA.ID"
+"MN908947.3",13135,"13135-A-T","A","T",151,FALSE,14,0.428571,2,42.8571,"None",FALSE,"Synonymous","NSP10","NSP10 A13135T"

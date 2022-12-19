@@ -1,0 +1,2 @@
+"Segment","Position","NT.ID","NT.REF","NT.ALT","Quality.score","INDEL","Read.depth","Frequency","Strand.bias","Percent","INDEL.type","INDEL.frameshift","Type","Gene","AA.ID","AA.Position","AA.REF","AA.ALT"
+"MN908947.3",29870,"29870-C-A","C","A",32,FALSE,10,0.9,0,90,"None",FALSE,"Noncoding","None","Noncoding C29870A",NA,NA,NA

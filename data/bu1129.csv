@@ -1,0 +1,8 @@
+"Segment","Position","NT.ID","NT.REF","NT.ALT","Quality.score","INDEL","Read.depth","Frequency","Strand.bias","Percent","INDEL.type","INDEL.frameshift","Type","Gene","AA.ID","AA.Position","AA.REF","AA.ALT"
+"MN908947.3",6634,"6634-T-C","T","C",5865,FALSE,179,1,0,100,"None",FALSE,"Synonymous","NSP3","NSP3 T6634C",NA,NA,NA
+"MN908947.3",17615,"17615-A-G","A","G",636,FALSE,19,1,0,100,"None",FALSE,"Nonsynonymous","NSP13","NSP13 K460R",460,"K","R"
+"MN908947.3",18550,"18550-A-G","A","G",20770,FALSE,637,1,0,100,"None",FALSE,"Nonsynonymous","NSP14","NSP14 S171G",171,"S","G"
+"MN908947.3",28270,"28270-TA-T","TA","T",290,TRUE,17,1,0,100,"Deletion",NA,"Noncoding","None","Noncoding TA28270T",NA,NA,NA
+"MN908947.3",28280,"28280-G-C","G","C",255,FALSE,16,1,0,100,"None",FALSE,"Nonsynonymous","N","N D3H",3,"D","H"
+"MN908947.3",28281,"28281-A-T","A","T",181,FALSE,16,0.9375,0,93.75,"None",FALSE,"Nonsynonymous","N","N D3V",3,"D","V"
+"MN908947.3",28282,"28282-T-A","T","A",190,FALSE,16,0.9375,3,93.75,"None",FALSE,"Nonsynonymous","N","N D3E",3,"D","E"

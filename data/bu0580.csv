@@ -1,0 +1,12 @@
+"Segment","Position","NT.ID","NT.REF","NT.ALT","Quality.score","INDEL","Read.depth","Frequency","Strand.bias","Percent","INDEL.type","INDEL.frameshift","Type","Gene","AA.ID","AA.Position","AA.REF","AA.ALT"
+"MN908947.3",241,"241-C-T","C","T",730,FALSE,24,1,0,100,"None",FALSE,"Noncoding","None","Noncoding C241T",NA,NA,NA
+"MN908947.3",527,"527-C-T","C","T",81,FALSE,601,0.021631,15,2.1631,"None",FALSE,"Synonymous","NSP1","NSP1 C527T",NA,NA,NA
+"MN908947.3",651,"651-A-C","A","C",87,FALSE,730,0.057534,2,5.7534,"None",FALSE,"Nonsynonymous","NSP1","NSP1 K129T",129,"K","T"
+"MN908947.3",655,"655-A-C","A","C",58,FALSE,726,0.044077,0,4.4077,"None",FALSE,"Synonymous","NSP1","NSP1 A655C",NA,NA,NA
+"MN908947.3",6285,"6285-C-T","C","T",401,FALSE,30,0.5,0,50,"None",FALSE,"Nonsynonymous","NSP3","NSP3 T1189I",1189,"T","I"
+"MN908947.3",9867,"9867-T-C","T","C",445,FALSE,13,1,0,100,"None",FALSE,"Nonsynonymous","NSP4","NSP4 L438P",438,"L","P"
+"MN908947.3",23403,"23403-A-G","A","G",502,FALSE,15,1,0,100,"None",FALSE,"Nonsynonymous","S","S D614G",614,"D","G"
+"MN908947.3",25135,"25135-G-T","G","T",1073,FALSE,35,1,0,100,"None",FALSE,"Nonsynonymous","S","S K1191N",1191,"K","N"
+"MN908947.3",26965,"26965-A-G","A","G",2193,FALSE,587,0.204429,6,20.4429,"None",FALSE,"Nonsynonymous","M","M H148R",148,"H","R"
+"MN908947.3",27144,"27144-A-C","A","C",62,FALSE,630,0.039683,0,3.9683,"None",FALSE,"Nonsynonymous","M","M T208P",208,"T","P"
+"MN908947.3",28270,"28270-TA-T","TA","T",2674,TRUE,93,0.924731,1,92.4731,"Deletion",NA,"Noncoding","None","Noncoding TA28270T",NA,NA,NA

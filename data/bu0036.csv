@@ -1,0 +1,18 @@
+"Segment","Position","NT.ID","NT.REF","NT.ALT","Quality.score","INDEL","Read.depth","Frequency","Strand.bias","Percent","INDEL.type","INDEL.frameshift","Type","Gene","AA.ID","AA.Position","AA.REF","AA.ALT"
+"MN908947.3",241,"241-C-T","C","T",6049,FALSE,175,1,0,100,"None",FALSE,"Noncoding","None","Noncoding C241T",NA,NA,NA
+"MN908947.3",434,"434-GA-G","GA","G",95,TRUE,8638,0.002315,4,0.2315,"Deletion",TRUE,"Nonsynonymous","NSP1","NSP1 G59A",59,"G","A"
+"MN908947.3",621,"621-G-A","G","A",167,FALSE,9763,0.006351,0,0.6351,"None",FALSE,"Nonsynonymous","NSP1","NSP1 R119H",119,"R","H"
+"MN908947.3",1813,"1813-T-TA","T","TA",10712,TRUE,414,0.828502,82,82.8502,"Insertion",TRUE,"Nonsynonymous","NSP2","NSP2 G339R",339,"G","R"
+"MN908947.3",8083,"8083-G-A","G","A",3965,FALSE,129,0.937984,7,93.7984,"None",FALSE,"Nonsynonymous","NSP3","NSP3 M1788I",1788,"M","I"
+"MN908947.3",10319,"10319-C-T","C","T",1052,FALSE,32,1,0,100,"None",FALSE,"Nonsynonymous","NSP5","NSP5 L89F",89,"L","F"
+"MN908947.3",10543,"10543-C-T","C","T",1456,FALSE,42,1,0,100,"None",FALSE,"Synonymous","NSP5","NSP5 C10543T",NA,NA,NA
+"MN908947.3",14805,"14805-C-T","C","T",2576,FALSE,78,0.987179,0,98.7179,"None",FALSE,"Nonsynonymous","NSP12","NSP12 Y455F",455,"Y","F"
+"MN908947.3",18424,"18424-A-G","A","G",8526,FALSE,265,0.977359,0,97.7359,"None",FALSE,"Nonsynonymous","NSP14","NSP14 N129D",129,"N","D"
+"MN908947.3",21088,"21088-G-T","G","T",4824,FALSE,141,1,0,100,"None",FALSE,"Nonsynonymous","NSP16","NSP16 D144Y",144,"D","Y"
+"MN908947.3",23403,"23403-A-G","A","G",7391,FALSE,222,1,0,100,"None",FALSE,"Nonsynonymous","S","S D614G",614,"D","G"
+"MN908947.3",25563,"25563-G-T","G","T",9424,FALSE,288,0.996528,8,99.6528,"None",FALSE,"Nonsynonymous","ORF3a","ORF3a Q57H",57,"Q","H"
+"MN908947.3",25907,"25907-G-T","G","T",765,FALSE,24,1,0,100,"None",FALSE,"Nonsynonymous","ORF3a","ORF3a G172V",172,"G","V"
+"MN908947.3",25968,"25968-A-G","A","G",73,FALSE,19,0.157895,0,15.7895,"None",FALSE,"Synonymous","ORF3a","ORF3a A25968G",NA,NA,NA
+"MN908947.3",28472,"28472-C-T","C","T",1227,FALSE,37,1,0,100,"None",FALSE,"Nonsynonymous","N","N P67S",67,"P","S"
+"MN908947.3",28793,"28793-G-T","G","T",414,FALSE,25,0.6,9,60,"None",FALSE,"Nonsynonymous","N","N E174*",174,"E","*"
+"MN908947.3",28869,"28869-C-T","C","T",536,FALSE,16,1,0,100,"None",FALSE,"Nonsynonymous","N","N P199L",199,"P","L"

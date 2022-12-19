@@ -1,0 +1,4 @@
+"Segment","Position","NT.ID","NT.REF","NT.ALT","Quality.score","INDEL","Read.depth","Frequency","Strand.bias","Percent","INDEL.type","INDEL.frameshift","Type","Gene","AA.Position","AA.REF","AA.ALT","AA.ID"
+"MN908947.3",28163,"28163-C-A","C","A",55,FALSE,6678,0.008086,18,0.8086,"None",FALSE,"Nonsynonymous","ORF8",90,"C","*","ORF8 C90*"
+"MN908947.3",28382,"28382-T-G","T","G",55,FALSE,7738,0.015896,25,1.5896,"None",FALSE,"Nonsynonymous","N",37,"S","A","N S37A"
+"MN908947.3",28393,"28393-T-G","T","G",65,FALSE,7523,0.017546,18,1.7546,"None",FALSE,"Synonymous","N",NA,NA,NA,"N T28393G"

@@ -1,0 +1,76 @@
+sequence_id,user_name,name,id,clade,lineage,distance,quality,identical,location,collect_date,submit_date,authors,orig_lab,submit_lab,prot_mutations,variant
+UPLOAD_001, bu0267 MN908947.3,hCoV-19/USA/MA-MASPHL-03235/2021,EPI_ISL_1710603,GRY,B.1.1.7,0,0.960985043,FALSE,North America / USA / Massachusetts,2/24/21,4/24/21,"Andrew Lang, Timelia Fink, Glen Gallagher, Sandra Smole",Massachusetts State Public Health Laboratory,Massachusetts State Public Health Laboratory,"NSP3 T183I,Spike V70del,Spike T716I,NSP3 A890D,NSP3 I1412T,Spike S982A,NSP6 G107del,NSP3 A231V,Spike Y144del,Spike D614G,NS8 Y73C,N R203K,NSP4 F17L,NS8 R52I,Spike D1118H,NS3 L15F,N S235F,Spike H69del,NS8 Q27stop,NSP6 S106del,NSP13 K460R,NSP6 F108del,NSP1 D75N,NSP12 P323L,Spike A570D,Spike T259I,Spike N501Y,Spike P681H,N G204R,N D3L",VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK
+UPLOAD_001, bu0267 MN908947.3,hCoV-19/USA/MA-MASPHL-03279/2021,EPI_ISL_2008266,GRY,B.1.1.7,0,0.989775861,FALSE,North America / USA / Massachusetts,2/26/21,5/11/21,"Andrew Lang, Timelia Fink, Glen Gallagher, Sandra Smole",Massachusetts State Public Health Laboratory,Massachusetts State Public Health Laboratory,"NSP3 T183I,Spike V70del,Spike T716I,NSP3 A890D,NSP3 I1412T,Spike S982A,NSP6 G107del,NSP3 A231V,Spike Y144del,Spike D614G,NS8 Y73C,N R203K,NSP4 F17L,NS8 R52I,Spike D1118H,NS3 L15F,N S235F,Spike H69del,NS8 Q27stop,NSP6 S106del,NSP13 K460R,NSP6 F108del,NSP1 D75N,NSP12 P323L,Spike A570D,Spike T259I,Spike N501Y,Spike P681H,N G204R,N D3L",VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK
+UPLOAD_001, bu0267 MN908947.3,hCoV-19/USA/MA-MASPHL-02005/2021,EPI_ISL_1233279,GRY,B.1.1.7,1,0.989599368,FALSE,North America / USA / Massachusetts,2/7/21,3/12/21,"Andrew Lang, Timelia Fink, Glen Gallagher, Sandra Smole",Massachusetts State Public Health Laboratory,Massachusetts State Public Health Laboratory,"NSP3 T183I,Spike V70del,Spike T716I,NSP3 A890D,NSP3 I1412T,Spike S982A,NSP6 G107del,NSP3 A231V,Spike Y144del,Spike D614G,NS8 Y73C,N R203K,NSP4 F17L,NS8 R52I,Spike D1118H,NS3 L15F,N S235F,Spike H69del,NS8 Q27stop,NSP6 S106del,NSP13 K460R,NSP6 F108del,NSP12 P323L,Spike A570D,Spike N501Y,Spike P681H,N G204R,N D3L",VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK
+UPLOAD_001, bu0267 MN908947.3,hCoV-19/USA/MA-MASPHL-03277/2021,EPI_ISL_2008264,GRY,B.1.1.7,1,0.989951687,FALSE,North America / USA / Massachusetts,2/22/21,5/11/21,"Andrew Lang, Timelia Fink, Glen Gallagher, Sandra Smole",Massachusetts State Public Health Laboratory,Massachusetts State Public Health Laboratory,"NSP3 T183I,Spike V70del,Spike T716I,NSP3 A890D,NSP3 I1412T,Spike S982A,NSP6 G107del,NSP3 A231V,Spike Y144del,Spike D614G,NS8 Y73C,N R203K,NSP4 F17L,NS8 R52I,Spike D1118H,NS3 L15F,N S235F,Spike H69del,NS8 Q27stop,NSP6 S106del,NSP13 K460R,NSP6 F108del,NSP1 D75N,NSP12 P323L,Spike A570D,Spike T259I,N P142S,Spike N501Y,Spike P681H,N G204R,N D3L",VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK
+UPLOAD_001, bu0267 MN908947.3,hCoV-19/USA/NC-GCB-C562EDA49AA440B19A7C3548C2F108F5/2021,EPI_ISL_2254686,GR,B.1.1.7,0,0.984353087,FALSE,North America / USA / North Carolina,3/24/21,5/19/21,"Berrio,A., Devos,N., Wray,G.A., Haase,S.B., Denny,T.N.","Duke Center for Genomic and Computational Biology (GCB),  Duke University","Duke Center for Genomic and Computational Biology (GCB),  Duke University","NSP3 T183I,Spike T716I,NSP3 A890D,NSP3 I1412T,Spike S982A,NSP3 A231V,Spike Y144del,Spike D614G,NS8 Y73C,N R203K,NSP4 F17L,NS8 R52I,Spike D1118H,NS3 L15F,N S235F,NS8 Q27stop,NSP13 K460R,NSP1 D75N,NSP12 P323L,Spike A570D,Spike T259I,Spike N501Y,Spike P681H,N G204R,N D3L",VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK
+UPLOAD_001, bu0267 MN908947.3,hCoV-19/USA/NC-GCB-581FB587DC2446899E05FF6538595649/2021,EPI_ISL_2254704,GR,B.1.1.7,0,0.988892378,FALSE,North America / USA / North Carolina,3/24/21,5/19/21,"Berrio,A., Devos,N., Wray,G.A., Haase,S.B., Denny,T.N.","Duke Center for Genomic and Computational Biology (GCB),  Duke University","Duke Center for Genomic and Computational Biology (GCB),  Duke University","NSP3 T183I,Spike T716I,NSP3 A890D,NSP3 I1412T,Spike S982A,NSP3 A231V,Spike Y144del,Spike D614G,NS8 Y73C,N R203K,NSP4 F17L,NS8 R52I,Spike D1118H,NS3 L15F,N S235F,NS8 Q27stop,NSP13 K460R,NSP1 D75N,NSP12 P323L,Spike A570D,Spike T259I,Spike N501Y,Spike P681H,N G204R,N D3L",VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK
+UPLOAD_001, bu0267 MN908947.3,hCoV-19/USA/CA-CZB-30361/2021,EPI_ISL_1821377,GR,B.1.1.7,1,0.983967831,FALSE,North America / USA / California / San Luis Obispo County,4/1/21,4/30/21,CZB Cliahub Consortium,County of San Luis Obispo Public Health Laboratory,Chan-Zuckerberg Biohub,"NSP3 T183I,N D3L,Spike V70del,Spike T716I,NSP3 A890D,NSP3 I1412T,Spike S982A,NSP6 G107del,NSP3 A231V,Spike D614G,NS8 Y73C,N R203K,NSP4 F17L,NS8 R52I,Spike D1118H,NS3 L15F,N S235F,Spike H69del,NS8 Q27stop,NSP6 S106del,NSP13 K460R,NSP6 F108del,NSP1 D75N,NSP12 P323L,Spike A570D,Spike N501Y,Spike P681H,N G204R,NSP12 T870I",VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK
+UPLOAD_001, bu0267 MN908947.3,hCoV-19/USA/MN-CDC-IBX633683376325/2021,EPI_ISL_1693964,GRY,B.1.1.7,1,0.98442304,FALSE,North America / USA / Minnesota,4/1/21,4/22/21,"Dakota Howard, Dhwani Batra, Peter W. Cook, Kara Moser, Adrian Paskey, Jason Caravas, Benjamin Rambo-Martin, Shatavia Morrison, Christopher Gulvick, Scott Sammons, Yvette Unoarumhi, Darlene Wagner, Matthew Schmerer, Christian Bixby, Yihe Wang, Jonathan Schultz, Chirayu Goswami, Russ Hager, Robin Grimwood, Clinton R. Paden, Duncan MacCannell",Infinity Biologix,"Centers for Disease Control and Prevention   Division of Viral Diseases, Pathogen Discovery","NSP3 T183I,Spike V70del,Spike T716I,NSP3 A890D,NSP3 I1412T,Spike S982A,NSP6 G107del,NSP3 A231V,Spike Y144del,Spike D614G,NS8 Y73C,N R203K,NSP4 F17L,NS8 R52I,Spike D1118H,NS3 L15F,N S235F,Spike H69del,NS8 Q27stop,NSP6 S106del,NSP13 K460R,NSP6 F108del,NSP1 D75N,NSP12 P323L,Spike A570D,Spike N501Y,Spike P681H,N G204R,N D3L",VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK
+UPLOAD_001, bu0267 MN908947.3,hCoV-19/USA/MN-CDC-IBX124970685081/2021,EPI_ISL_1733408,GRY,B.1.1.7,1,0.984456315,FALSE,North America / USA / Minnesota,4/6/21,4/26/21,"Dakota Howard, Dhwani Batra, Peter W. Cook, Kara Moser, Adrian Paskey, Jason Caravas, Benjamin Rambo-Martin, Shatavia Morrison, Christopher Gulvick, Scott Sammons, Yvette Unoarumhi, Darlene Wagner, Matthew Schmerer, Christian Bixby, Yihe Wang, Jonathan Schultz, Chirayu Goswami, Russ Hager, Robin Grimwood, Clinton R. Paden, Duncan MacCannell",Infinity Biologix,"Centers for Disease Control and Prevention   Division of Viral Diseases, Pathogen Discovery","NSP3 T183I,Spike V70del,Spike T716I,NSP3 A890D,NSP3 I1412T,Spike S982A,NSP6 G107del,NSP3 A231V,Spike Y144del,Spike D614G,NS8 Y73C,N R203K,NSP4 F17L,NS8 R52I,Spike D1118H,NS3 L15F,N S235F,Spike H69del,NS8 Q27stop,NSP6 S106del,NSP13 K460R,NSP6 F108del,NSP1 D75N,NSP12 P323L,Spike A570D,Spike N501Y,Spike P681H,N G204R,N D3L",VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK
+UPLOAD_001, bu0267 MN908947.3,hCoV-19/USA/WY-CDC-IBX793620765221/2021,EPI_ISL_1691556,GRY,B.1.1.7,1,0.984460954,FALSE,North America / USA / Wyoming,3/20/21,4/22/21,"Dakota Howard, Dhwani Batra, Peter W. Cook, Kara Moser, Adrian Paskey, Jason Caravas, Benjamin Rambo-Martin, Shatavia Morrison, Christopher Gulvick, Scott Sammons, Yvette Unoarumhi, Darlene Wagner, Matthew Schmerer, Christian Bixby, Yihe Wang, Jonathan Schultz, Chirayu Goswami, Russ Hager, Robin Grimwood, Clinton R. Paden, Duncan MacCannell",Infinity Biologix,"Centers for Disease Control and Prevention   Division of Viral Diseases, Pathogen Discovery","NSP3 T183I,Spike V70del,Spike T716I,NSP3 A890D,NSP3 I1412T,Spike S982A,NSP6 G107del,NSP3 A231V,Spike Y144del,Spike D614G,NS8 Y73C,N R203K,NSP4 F17L,NS8 R52I,Spike D1118H,NS3 L15F,N S235F,Spike H69del,NS8 Q27stop,NSP6 S106del,NSP13 K460R,NSP6 F108del,NSP1 D75N,NSP12 P323L,Spike A570D,Spike N501Y,Spike P681H,N G204R,N D3L",VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK
+UPLOAD_001, bu0267 MN908947.3,hCoV-19/USA/CA-CDC-FG-011992/2021,EPI_ISL_1555567,GRY,B.1.1.7,1,0.909092335,FALSE,North America / USA / California,3/8/21,4/12/21,"Dakota Howard, Dhwani Batra, Peter W. Cook, Kara Moser, Adrian Paskey, Jason Caravas, Benjamin Rambo-Martin, Shatavia Morrison, Christopher Gulvick, Scott Sammons, Yvette Unoarumhi, Darlene Wagner, Matthew Schmerer, Harry Gao, Mickey Li, John Gao, Joseph Fierro, Benafsh Sapra, Becky Tsai, Yan Meng, Doreen Ng, James Xie, Clinton R. Paden, Duncan MacCannell",Fulgent Genetics,"Centers for Disease Control and Prevention   Division of Viral Diseases, Pathogen Discovery","NSP3 T183I,Spike V70del,Spike T716I,NSP3 A890D,NSP3 I1412T,Spike S982A,NSP6 G107del,NSP3 A231V,Spike Y144del,Spike D614G,N T362K,NS8 Y73C,N R203K,NSP4 F17L,NS8 R52I,NSP1 D75B,Spike D1118H,NS3 L15F,N S235F,Spike H69del,NS8 Q27stop,NSP6 S106del,NSP13 K460R,NSP6 F108del,NSP12 P323L,Spike A570D,Spike T259I,Spike N501Y,Spike P681H,N G204R,N D3L",VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK
+UPLOAD_001, bu0267 MN908947.3,hCoV-19/USA/NY-CDC-QDX23954429/2021,EPI_ISL_1906538,GRY,B.1.1.7,1,0.984001296,FALSE,North America / USA / New York,4/10/21,5/4/21,"Dakota Howard, Dhwani Batra, Peter W. Cook, Kara Moser, Adrian Paskey, Jason Caravas, Benjamin Rambo-Martin, Shatavia Morrison, Christopher Gulvick, Scott Sammons, Yvette Unoarumhi, Darlene Wagner, Matthew Schmerer, S. H. Rosenthal, A. Gerasimova, R. M. Kagan, B. Anderson, M. Hua, Y. Liu, L.E. Bernstein, K.E. Livingston, A. Perez, I. A. Shlyakhter, R. V. Rolando, R. Owen, P. Tanpaiboon, F. Lacbawan, Clinton R. Paden, Duncan MacCannell",Quest Diagnostics Incorporated,"Centers for Disease Control and Prevention   Division of Viral Diseases, Pathogen Discovery","NSP3 T183I,Spike V70del,Spike T716I,M A2V,NSP3 A890D,NSP3 I1412T,Spike S982A,NSP6 G107del,NSP3 A231V,Spike Y144del,Spike D614G,NS8 Y73C,N R203K,NSP4 F17L,NS8 R52I,Spike D1118H,NS3 L15F,N S235F,Spike H69del,NS8 Q27stop,NSP6 S106del,NSP13 K460R,NSP6 F108del,NSP1 D75N,NSP12 P323L,Spike A570D,Spike T259I,Spike N501Y,Spike P681H,N G204R,N D3L",VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK
+UPLOAD_001, bu0267 MN908947.3,hCoV-19/USA/NM-NMDOH-2021095590/2021,EPI_ISL_3452153,GR,B.1.1.7,0,0.971353177,FALSE,North America / USA / New Mexico,3/29/21,8/17/21,"Ellie Johnson, D'eldra Malone, Jennifer Benoit, Linda Salzar, Justin Griego, Monica Manginell, Michael Sam, Anastacia Griego-Fisher",Curative Labs,New Mexico Department of Health Scientific Laboratory,"NSP3 T183I,Spike V70del,Spike T716I,NSP3 A890D,NSP3 I1412T,Spike S982A,NSP6 G107del,NSP3 A231V,Spike Y144del,Spike D614G,NS8 Y73C,N R203K,NSP4 F17L,NS8 R52I,Spike D1118H,NS3 L15F,N S235F,Spike H69del,NS8 Q27stop,NSP6 S106del,NSP13 K460R,NSP6 F108del,NSP1 D75N,NSP12 P323L,Spike A570D,Spike T259I,Spike N501Y,Spike P681H,N G204R,N D3L",VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK
+UPLOAD_001, bu0267 MN908947.3,hCoV-19/USA/NY-PRL-2021_0419_00F07/2021,EPI_ISL_1717198,GRY,B.1.1.7,1,0.982937123,FALSE,North America / USA / New York / New York City,4/15/21,4/26/21,"Henry Lee, Michael Hammerling, Melissa Hopkins, Cybill del Castillo, Shinyoung Clair Kang, William Ward, Pradeep Bugga, Sol Rey, Dylan Law, Katharine Nelson, Haiping Hao, Jon Laurent",Pandemic Response Lab - NYC,"Pandemic Response Lab, R&D","NSP3 T183I,Spike V70del,Spike T716I,M A2V,NSP3 A890D,NSP3 I1412T,Spike S982A,NSP6 G107del,NSP3 A231V,Spike Y144del,Spike D614G,NS8 Y73C,N R203K,NSP4 F17L,NS8 R52I,Spike D1118H,NS3 L15F,N S235F,Spike H69del,NS8 Q27stop,NSP6 S106del,NSP13 K460R,NSP6 F108del,NSP1 D75N,NSP12 P323L,Spike A570D,Spike T259I,Spike N501Y,Spike P681H,N G204R,N D3L",VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK
+UPLOAD_001, bu0267 MN908947.3,hCoV-19/USA/IN-PU-LH000154511/2021,EPI_ISL_1823459,GRY,B.1.1.7,1,0.98360157,FALSE,North America / USA / Indiana / Tippecanoe County,3/22/21,5/1/21,"Jack Dorman, Ilinca I Ciubotariu, Nicole M Perry, Jobin J Kattoor, Lev Gorenstein, Abebe A Fola, G Kenitra Hendrix, Rebecca P Wilkes, Giovanna Carpi",Indiana Animal Disease Diagnostic Laboratory,Carpi Laboratory - Purdue University,"NSP3 T183I,Spike V70del,Spike T716I,NSP3 A890D,NSP3 I1412T,Spike S982A,NSP6 G107del,NSP3 A231V,Spike Y144del,Spike D614G,NS8 Y73C,N R203K,NSP4 F17L,NS8 R52I,Spike D1118H,NS3 L15F,N S235F,Spike H69del,NS8 Q27stop,NSP6 S106del,NSP13 K460R,NSP6 F108del,NSP1 D75N,NSP12 P323L,Spike A570D,Spike T259I,Spike N501Y,Spike P681H,N G204R,N D3L",VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK
+UPLOAD_001, bu0267 MN908947.3,hCoV-19/USA/IN-PU-LH000161937/2021,EPI_ISL_1823461,GRY,B.1.1.7,1,0.983968038,FALSE,North America / USA / Indiana / Tippecanoe County,3/24/21,5/1/21,"Jack Dorman, Ilinca I Ciubotariu, Nicole M Perry, Jobin J Kattoor, Lev Gorenstein, Abebe A Fola, G Kenitra Hendrix, Rebecca P Wilkes, Giovanna Carpi",Indiana Animal Disease Diagnostic Laboratory,Carpi Laboratory - Purdue University,"NSP3 T183I,Spike V70del,Spike T716I,NSP3 A890D,NSP3 I1412T,Spike S982A,NSP6 G107del,NSP3 A231V,Spike Y144del,Spike D614G,NS8 Y73C,N R203K,NS8 R52I,Spike D1118H,NS3 L15F,N S235F,Spike H69del,NS8 Q27stop,NSP6 S106del,NSP13 K460R,NSP6 F108del,NSP1 D75N,NSP12 P323L,Spike A570D,Spike T259I,Spike N501Y,Spike P681H,N G204R,N D3L",VOC Alpha GRY (B.1.1.7+Q.*) first detected in the UK
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,

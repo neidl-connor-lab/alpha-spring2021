@@ -1,0 +1,5 @@
+"Segment","Position","NT.ID","NT.REF","NT.ALT","Quality.score","INDEL","Read.depth","Frequency","Strand.bias","Percent","INDEL.type","Type","Gene","INDEL.frameshift","AA.Position","AA.REF","AA.ALT","AA.ID"
+"MN908947.3",17379,"17379-TTA-T","TTA","T",160,TRUE,29,0.551724,0,55.1724,"Deletion","Nonsynonymous","NSP13",TRUE,382,"Y","*","NSP13 Y382*"
+"MN908947.3",17381,"17381-A-AGTCGGC","A","AGTCGGC",78,TRUE,33,0.272727,2,27.2727,"Insertion","Nonsynonymous","NSP13",FALSE,382,"Y","*","NSP13 Y382*"
+"MN908947.3",17615,"17615-A-G","A","G",49314,FALSE,1901,0.999474,0,99.9474,"None","Nonsynonymous","NSP13",FALSE,460,"K","R","NSP13 K460R"
+"MN908947.3",17619,"17619-TA-T","TA","T",48,TRUE,1831,0.003277,1,0.3277,"Deletion","Nonsynonymous","NSP13",TRUE,463,"A","H","NSP13 A463H"

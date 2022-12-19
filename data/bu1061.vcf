@@ -1,0 +1,22 @@
+##fileformat=VCFv4.0
+##fileDate=20220824
+##source=lofreq call --call-indels --min-cov 10 --ref pipeline/sars-cov2-MN908947.3.fa --no-default-filter -r MN908947.3:1-1868 -o /scratch/6939530.1.b-long/lofreq2_call_parallelhrazLq/0.vcf.gz data/bu1061-indel.bam 
+##reference=pipeline/sars-cov2-MN908947.3.fa
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_snvqual_20,Description="Minimum SNV Quality (Phred) 20">
+##FILTER=<ID=min_indelqual_20,Description="Minimum Indel Quality (Phred) 20">
+##FILTER=<ID=min_dp_10,Description="Minimum Coverage 10">
+##FILTER=<ID=sb_fdr,Description="Strand-Bias Multiple Testing Correction: fdr corr. pvalue > 0.001000">
+##FILTER=<ID=min_snvqual_53,Description="Minimum SNV Quality (Phred) 53">
+##FILTER=<ID=min_indelqual_35,Description="Minimum Indel Quality (Phred) 35">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+MN908947.3	21088	.	G	T	2601	PASS	DP=79;AF=0.987342;SB=0;DP4=0,0,11,67
+MN908947.3	23403	.	A	G	20291	PASS	DP=646;AF=0.990712;SB=2;DP4=0,2,237,403
+MN908947.3	23468	.	TATTC	T	159	PASS	DP=759;AF=0.019763;SB=4;DP4=70,676,0,15;INDEL;HRUN=1
+MN908947.3	28436	.	G	GC	35	PASS	DP=121;AF=0.016529;SB=30;DP4=2,119,2,0;INDEL;HRUN=1

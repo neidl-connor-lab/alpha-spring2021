@@ -1,0 +1,2 @@
+"Segment","Position","NT.ID","NT.REF","NT.ALT","Quality.score","INDEL","Read.depth","Frequency","Strand.bias","Percent","INDEL.type","Type","Gene","INDEL.frameshift","AA.Position","AA.REF","AA.ALT","AA.ID"
+"MN908947.3",11292,"11292-GT-G","GT","G",28,TRUE,11,0.090909,5,9.0909,"Deletion","Nonsynonymous","NSP6",TRUE,108,"F","L","NSP6 F108L"

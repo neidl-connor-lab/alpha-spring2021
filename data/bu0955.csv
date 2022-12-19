@@ -1,0 +1,2 @@
+"Segment","Position","NT.ID","NT.REF","NT.ALT","Quality.score","INDEL","Read.depth","Frequency","Strand.bias","Percent","INDEL.type","INDEL.frameshift","Type","Gene","AA.ID"
+"MN908947.3",12145,"12145-T-A","T","A",43,FALSE,19,0.105263,0,10.5263,"None",FALSE,"Synonymous","NSP8","NSP8 T12145A"

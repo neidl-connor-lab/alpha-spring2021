@@ -1,0 +1,2 @@
+"Segment","Position","NT.ID","NT.REF","NT.ALT","Quality.score","INDEL","Read.depth","Frequency","Strand.bias","Percent","INDEL.type","INDEL.frameshift","Type","Gene","AA.Position","AA.REF","AA.ALT","AA.ID"
+"MN908947.3",3330,"3330-C-T","C","T",21571,FALSE,665,0.998496,0,99.8496,"None",FALSE,"Nonsynonymous","NSP3",204,"T","I","NSP3 T204I"

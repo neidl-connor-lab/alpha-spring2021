@@ -1,0 +1,2 @@
+"Segment","Position","NT.ID","NT.REF","NT.ALT","Quality.score","INDEL","Read.depth","Frequency","Strand.bias","Percent","INDEL.type","Type","Gene","INDEL.frameshift","AA.Position","AA.REF","AA.ALT","AA.ID"
+"MN908947.3",1813,"1813-TA-T","TA","T",39,TRUE,1876,0.004264,13,0.4264,"Deletion","Nonsynonymous","NSP2",TRUE,339,"G","V","NSP2 G339V"

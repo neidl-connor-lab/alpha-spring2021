@@ -1,0 +1,2 @@
+"Segment","Position","NT.ID","NT.REF","NT.ALT","Quality.score","INDEL","Read.depth","Frequency","Strand.bias","Percent","INDEL.type","Type","Gene","INDEL.frameshift","AA.Position","AA.REF","AA.ALT","AA.ID"
+"MN908947.3",13191,"13191-CAG-C","CAG","C",49314,TRUE,2668,0.943403,18,94.3403,"Deletion","Nonsynonymous","NSP10",TRUE,57,"V","Y","NSP10 V57Y"

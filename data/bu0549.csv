@@ -1,0 +1,8 @@
+"Segment","Position","NT.ID","NT.REF","NT.ALT","Quality.score","INDEL","Read.depth","Frequency","Strand.bias","Percent","INDEL.type","INDEL.frameshift","Type","Gene","AA.Position","AA.REF","AA.ALT","AA.ID"
+"MN908947.3",1059,"1059-C-T","C","T",396,FALSE,14,0.928571,0,92.8571,"None",FALSE,"Nonsynonymous","NSP2",85,"T","I","NSP2 T85I"
+"MN908947.3",12873,"12873-G-C","G","C",128,FALSE,14,0.357143,10,35.7143,"None",FALSE,"Nonsynonymous","NSP9",63,"G","A","NSP9 G63A"
+"MN908947.3",14408,"14408-C-T","C","T",3623,FALSE,118,1,0,100,"None",FALSE,"Nonsynonymous","NSP12",323,"P","S","NSP12 P323S"
+"MN908947.3",23271,"23271-C-A","C","A",24095,FALSE,726,0.982094,0,98.2094,"None",FALSE,"Nonsynonymous","S",570,"A","D","S A570D"
+"MN908947.3",23403,"23403-A-G","A","G",23849,FALSE,728,1,0,100,"None",FALSE,"Nonsynonymous","S",614,"D","G","S D614G"
+"MN908947.3",25135,"25135-G-T","G","T",1382,FALSE,43,0.976744,0,97.6744,"None",FALSE,"Nonsynonymous","S",1191,"K","N","S K1191N"
+"MN908947.3",27434,"27434-C-T","C","T",202,FALSE,198,0.070707,11,7.0707,"None",FALSE,"Nonsynonymous","ORF7a",14,"T","I","ORF7a T14I"
