@@ -1,2 +1,2 @@
-# alpha-spring2021
-Analysis of the alpha VoC on the BU campus
+# spring2021
+Analysis of the SARS-CoV-2 transmission on the BU campus during spring 2021
